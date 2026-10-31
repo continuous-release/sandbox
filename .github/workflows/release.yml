@@ -58,4 +58,4 @@ jobs:
       build-command: ${{ needs.config.outputs.build }}
       publish-command: ${{ needs.config.outputs.publish }}
       artifact-glob: ${{ needs.config.outputs.artifact }}
-      toolkit-ref: v0.1.1
+      toolkit-ref: v0.2.1
