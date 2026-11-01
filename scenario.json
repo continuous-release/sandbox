@@ -5,5 +5,5 @@
   "test": "npm test",
   "build": "mkdir -p dist && npm version \"$VERSION\" --no-git-tag-version --allow-same-version && npm pack --pack-destination dist",
   "publish": "",
-  "artifact": "dist/nope-*.tgz"
+  "artifact": "dist/*.tgz"
 }
